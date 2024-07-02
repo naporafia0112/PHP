@@ -1,0 +1,158 @@
+/*CSS POUR L'ENTETE*/
+.entete {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #f9f990;
+    z-index: 1000;
+    background-color: #3f5954;
+    height: 90px;
+}
+.school-logo {
+    width: 110px;
+    height: 90px;
+}
+.titre {
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.header-buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.boutton2:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.boutton{
+    margin-right: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    color: #f9f990;
+    border-radius: 15px;
+}
+.boutton:hover{
+    color: white;
+    text-decoration: none;
+}
+/*CSS POUR LE CONTENU*/
+.conteneur1{
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+}
+.carree{
+    background-color: white;
+    margin-left: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #3f5954;
+}
+.para1{
+    color: #3f5954;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para{
+    color: white;
+    font-weight: bold;
+    font-size: 22;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*CSS POUR LE FOOTER*/
+.footer{
+    display: flex;
+    padding: 10px;
+    background-color: #3f5954;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div4{
+    width: 50%;
+    font-size: 20px;
+}
+.div5{
+    width: 50%;
+    font-size: 20px;
+}
+/*CSS POUR LES LIENS SUR LA PAGE*/
+a{
+    font-size: 20px;
+    margin-right: 20px; 
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:link,
+a:visited {
+    color: #f9f990; /* Couleur du texte pour les liens non visités et visités */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+a:hover{
+    color:white;
+}
+.bout1:link,
+.bout1:visited{
+    color: blue;
+    text-decoration: none;
+}
+.bout1:hover{
+    color: #f9f990;
+}
+/*Pour le menu */
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #f9f990;
+    margin: 5px 20px;
+}
+
+.menu-content {
+    display: none;
+    margin-top: 400px;
+    background-color: white;
+    border:2px solid #f9f990;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu-content a {
+    margin-bottom: 25px;
+    display: block;
+    color: #3f5954;
+    text-decoration: none;
+    font-weight: bold;
+}
+th{
+    background-color: #3f5954;
+    color: white;
+}
+.p1{
+    font-size: 27px;
+    color: #3f5954;
+    font-weight: bold;
+}
+.a1:link,
+.a1:visited{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.a1:hover{
+    color: blue;
+}
